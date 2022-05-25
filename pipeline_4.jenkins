@@ -3,7 +3,7 @@ pipeline {
 
    stages {
 
-      stage('runpy') {
+      stage('hello') {
         steps{      
           echo 'Hello, world!'
         }
