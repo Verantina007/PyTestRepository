@@ -5,7 +5,7 @@ pipeline {
 
       stage('runpy') {
         steps{      
-          sh 'Hello, world!'
+          echo 'Hello, world!'
         }
         }
 
