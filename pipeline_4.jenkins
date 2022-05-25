@@ -7,6 +7,11 @@ pipeline {
         steps{      
           echo 'Hello, world!'
         }
+        
+       stage('runpy') {
+        steps{      
+          sh 'python tests.py'
+        }
         }
 
   }
