@@ -9,7 +9,17 @@ pipeline {
         }
         }
       
-
+      stage('runpy') {
+        steps{      
+          sh 'python tests.py'
+        }
+        }
+		
+	  stage('version') {
+        steps{      
+          sh 'python --version'
+        }
+        }
 
   }
 }
