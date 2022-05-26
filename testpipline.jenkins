@@ -1,0 +1,14 @@
+pipeline {
+   agent { docker { image 'python:latest'}}
+
+   stages {
+
+      stage('hello') {
+        steps{      
+          echo 'Hello!'
+        }
+        }
+
+
+  }
+}
