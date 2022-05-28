@@ -1,5 +1,10 @@
 pipeline {
-   agent { docker { image 'python'}}
+   agent { docker { image 'python:latest'}}
+   
+   stage('Initialize'){
+        def dockerHome = tool 'myDocker'
+        env.PATH = "C:\Program Files\Docker\Docker\resources\bin"
+    }
 
    stages {
 
