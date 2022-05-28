@@ -3,7 +3,7 @@ pipeline {
    
    stage('Initialize'){
         def dockerHome = tool 'myDocker'
-        env.PATH = "${C:\Program Files\Docker\Docker\resources}\bin:${env.PATH}"
+        env.PATH = "${dockerHome}/bin:${env.PATH}"
     }
 
    stages {
