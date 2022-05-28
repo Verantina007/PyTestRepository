@@ -3,11 +3,11 @@ pipeline {
 
    stages {
 
-     /* stage('hello') {
+      stage('hello') {
         steps{      
           echo 'Hello!'
         }
-        }*/
+        }
         
               stage('version') {
         steps{      
