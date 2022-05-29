@@ -1,0 +1,25 @@
+pipeline {
+   agent any
+
+   stages {
+
+      stage('hello') {
+        steps{      
+          echo 'Hello, world!'
+        }
+        }
+        
+        stage('working') {
+        steps{      
+          echo 'I'm working!'
+        }
+        }
+        
+      stage('Good buy') {
+        steps{      
+          echo 'Buy-buy!!
+        }
+        }
+
+  }
+}
