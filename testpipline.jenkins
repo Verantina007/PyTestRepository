@@ -1,5 +1,5 @@
 pipeline {
-   agent any { image 'python:latest'}
+   agent { any { image 'python:latest'}}
    
    stages {
    
