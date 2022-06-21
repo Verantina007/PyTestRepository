@@ -17,7 +17,7 @@ pipeline {
         
       stage('Good buy') {
         steps{      
-          echo 'Buy-buy!!
+          echo 'Buy-buy!'
         }
         }
 
