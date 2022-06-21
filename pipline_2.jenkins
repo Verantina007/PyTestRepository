@@ -11,7 +11,7 @@ pipeline {
         
         stage('working') {
         steps{      
-          echo 'I'm working!'
+          echo 'Im working!'
         }
         }
         
