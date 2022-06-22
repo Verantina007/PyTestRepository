@@ -16,7 +16,8 @@ pipeline {
         }
       
       stage('runpy') {
-        steps{      
+        steps{  
+          sh 'python3 -m venv venv'
           sh 'python tests.py'
         }
         }
